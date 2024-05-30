@@ -1,0 +1,39 @@
+# Authorship y Copyright -----------------------------------------------------
+
+#Authors: Gerhard M Acero and Hans W Acero
+#Version Date: 2024-05-15
+
+# Paquetes a instalar -----------------------------------------------------
+
+if (!require("pacman")) {
+                        install.packages("pacman")
+                        }
+
+# Librerias ---------------------------------------------------------------
+
+pacman::p_load(rio, pryr)
+
+# Limpieza de directorio y liberamos memoria ------------------------------
+gc()
+rm(list=ls())
+
+# Importamos bases --------------------------------------------------------
+
+Defun1995 <- import("Data/Defun1995.sav")
+
+
+# Conociendo nuestra base -------------------------------------------------
+
+#usando View()
+#nos permite ver la base
+View(Defun1995)
+#la opción "title" nos permite ver la base "Defun1995" con otro nombre
+View(Defun1995, title = "morcis")
+
+#usando str()
+#Nos muestra la estructura de un objeto en R
+str(Defun1995)
+
+#usando summary()
+summary(Defun1995)
+dim(Defun1995)

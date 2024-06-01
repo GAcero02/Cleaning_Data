@@ -1,6 +1,10 @@
 # Cleaning_Data
-This repositorie contains Colombian deaths from 1995. 
-This information is obtained from the departamento administrativo nacional de estadisica (DANE).
-This datasets are obtained from https://microdatos.dane.gov.co/index.php/catalog/396/get-microdata 
 
-Also in this repositorie you can find a way to cleaning large datasets.
+
+#Limpieza de datos
+Este repositorio contiene una base de datos dummy creada por medio de la pagína https://www.mockaroo.com/
+Encontraras también un proyecto con recomendaciones sobre limpieza de datos con R y R-Studio.
+
+#limpeza de dados
+Este repositório contém um banco de dados fictício criado através da página https://www.mockaroo.com/
+Você também encontrará um projeto com recomendações sobre limpeza de dados com R e R-Studio.
